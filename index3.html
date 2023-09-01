@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Purchase Form </title>
+</head>
+<style>
+    .form-group{
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <form action="/Mua-xe" method="post">
+        <h1>Car Purchase Form</h1>
+
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="text" name="phone"  class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="Choose a Car">Choose a Car:</label>
+            <select name="Model 1">
+                <option value="Mec">Mec</option>
+                <option value="BMW">BMW</option>
+                <option value="KIA">KIA</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Choose a Color">Choose a Color:</label>
+            <select name="Model 1">
+                <option value="Red">Red</option>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Quantity">Quantity:</label>
+            <input type="text" name="Quantity" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="date">Delivery Date:</label>
+            <input type="date" name="Delivery Date" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    
+</body>
+</html>
